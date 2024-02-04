@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kilauea-slope-mowing/static/css/main.63053c7d.css",
-    "main.js": "/kilauea-slope-mowing/static/js/main.64f920ee.js",
-    "index.html": "/kilauea-slope-mowing/index.html",
-    "main.63053c7d.css.map": "/kilauea-slope-mowing/static/css/main.63053c7d.css.map",
-    "main.64f920ee.js.map": "/kilauea-slope-mowing/static/js/main.64f920ee.js.map"
+    "main.css": "/static/css/main.63053c7d.css",
+    "main.js": "/static/js/main.ce978367.js",
+    "index.html": "/index.html",
+    "main.63053c7d.css.map": "/static/css/main.63053c7d.css.map",
+    "main.ce978367.js.map": "/static/js/main.ce978367.js.map"
   },
   "entrypoints": [
     "static/css/main.63053c7d.css",
-    "static/js/main.64f920ee.js"
+    "static/js/main.ce978367.js"
   ]
 }
