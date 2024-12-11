@@ -8,6 +8,12 @@ export default function SocialLinks({ isBackgroundGreen }) {
       >
         <img src={"email.webp"} alt="Email" />
       </a>
+      <a
+        href="tel:808-755-1887"
+        className={`social-link ${isBackgroundGreen ? "bright-outline" : ""}`}
+      >
+        <img src={"phone.webp"} alt="Phone" />
+      </a>
     </div>
   );
 }
