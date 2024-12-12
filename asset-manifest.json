@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac476f51.css",
+    "main.js": "/static/js/main.f07de5b3.js",
+    "static/media/mower_1.webp": "/static/media/mower_1.d84edb79b4982b62b137.webp",
+    "index.html": "/index.html",
+    "main.ac476f51.css.map": "/static/css/main.ac476f51.css.map",
+    "main.f07de5b3.js.map": "/static/js/main.f07de5b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac476f51.css",
+    "static/js/main.f07de5b3.js"
+  ]
+}
