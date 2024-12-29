@@ -6,24 +6,25 @@ export default function Gallery() {
   const isMobile = window.innerWidth <= 768;
   
   const media = [
-    { src: "new-images/mowing-with-view2.jpeg", isVideo: false },
-    { src: "new-images/mowing-with-view1.jpeg", isVideo: false },
-    { src: "new-images/mowing-with-view3.jpeg", isVideo: false },
-    { src: "new-images/mowing3.jpeg", isVideo: false },
-    { src: "new-images/after2.mp4", isVideo: true },
-    { src: "new-images/after3.webp", isVideo: false },
-    { src: "new-images/before2.mp4", isVideo: true },
-    { src: "new-images/before3.webp", isVideo: false },
-    { src: "new-images/driving.mp4", isVideo: true },
-    { src: "new-images/mower1.jpeg", isVideo: false },
-    { src: "new-images/mower2.jpeg", isVideo: false },
-    { src: "new-images/mower2.webp", isVideo: false },
-    { src: "new-images/mower3.mp4", isVideo: true },
-    // { src: "new-images/mowing-hero.webp", isVideo: false },
-    { src: "new-images/mowing1.mp4", isVideo: true },
-    { src: "new-images/mowing2.jpeg", isVideo: false },
-    { src: "new-images/mowing4.jpeg", isVideo: false },
-    { src: "new-images/mowing5.mp4", isVideo: true },
+    
+    { src: "./new-images/mowing-with-view2.jpeg", isVideo: false },
+    { src: "./new-images/mowing-with-view1.jpeg", isVideo: false },
+    { src: "./new-images/mowing-with-view3.jpeg", isVideo: false },
+    { src: "./new-images/mowing3.jpeg", isVideo: false },
+    { src: "./new-images/after2.mp4", isVideo: true },
+    { src: "./new-images/after3.webp", isVideo: false },
+    { src: "./new-images/before2.mp4", isVideo: true },
+    { src: "./new-images/before3.webp", isVideo: false },
+    { src: "./new-images/driving.mp4", isVideo: true },
+    { src: "./new-images/mower1.jpeg", isVideo: false },
+    { src: "./new-images/mower2.jpeg", isVideo: false },
+    { src: "./new-images/mower2.webp", isVideo: false },
+    { src: "./new-images/mower3.mp4", isVideo: true },
+    // { src: "./new-images/mowing-hero.webp", isVideo: false },
+    { src: "./new-images/mowing1.mp4", isVideo: true },
+    { src: "./new-images/mowing2.jpeg", isVideo: false },
+    { src: "./new-images/mowing4.jpeg", isVideo: false },
+    { src: "./new-images/mowing5.mp4", isVideo: true },
   ];
 
   useEffect(() => {
