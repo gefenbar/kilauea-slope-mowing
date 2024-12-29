@@ -578,6 +578,7 @@ body {
   background-color: #5b8155;
   color: #222;
   height: 100%;
+  min-width: 50vw;
 }
 
 .card:hover {
@@ -824,6 +825,7 @@ body {
   align-items: center;
   gap: 20px;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 .contact-info-text p span {
