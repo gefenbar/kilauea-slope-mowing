@@ -3,10 +3,8 @@ import React, { useState, useEffect } from "react";
 export default function Gallery() {
   const [current, setCurrent] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
-  const isMobile = window.innerWidth <= 768;
-  
+
   const media = [
-    
     { src: "./new-images/mowing-with-view2.jpeg", isVideo: false },
     { src: "./new-images/mowing-with-view1.jpeg", isVideo: false },
     { src: "./new-images/mowing-with-view3.jpeg", isVideo: false },
@@ -20,7 +18,6 @@ export default function Gallery() {
     { src: "./new-images/mower2.jpeg", isVideo: false },
     { src: "./new-images/mower2.webp", isVideo: false },
     { src: "./new-images/mower3.mp4", isVideo: true },
-    // { src: "./new-images/mowing-hero.webp", isVideo: false },
     { src: "./new-images/mowing1.mp4", isVideo: true },
     { src: "./new-images/mowing2.jpeg", isVideo: false },
     { src: "./new-images/mowing4.jpeg", isVideo: false },
@@ -30,20 +27,17 @@ export default function Gallery() {
   useEffect(() => {
     setIsLoading(true);
     const nextIndex = (current + 1) % media.length;
-    const nextMedia = isMobile ? media[nextIndex].mobileSrc : media[nextIndex].src;
 
-    if (nextMedia) {
-      const preloadMedia = (url, isVideo) => {
-        const element = isVideo ? document.createElement("video") : new Image();
+    const preloadMedia = (url, isVideo) => {
+      const element = isVideo ? document.createElement("video") : new Image();
 
-        element.onload = () => {
-          setIsLoading(false);
-        };
-        element.src = url;
-      };
-      preloadMedia(nextMedia, media[nextIndex].isVideo);
-    }
-  }, [current, isMobile, media]);
+      element.onload = () => setIsLoading(false);
+      element.src = url;
+    };
+
+    const nextMedia = media[nextIndex];
+    preloadMedia(nextMedia.src, nextMedia.isVideo);
+  }, [current, media]);
 
   const handleNext = () => {
     setCurrent((prevCurrent) => (prevCurrent === media.length - 1 ? 0 : prevCurrent + 1));
@@ -73,7 +67,7 @@ export default function Gallery() {
             />
           ) : (
             <img
-              src={isMobile ? media[current].mobileSrc : media[current].src}
+              src={media[current].src}
               alt="slope mowing, mower image"
               className="gallery-image"
             />
