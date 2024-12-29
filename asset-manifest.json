@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb53f94f.css",
-    "main.js": "/static/js/main.683d85d5.js",
+    "main.css": "/static/css/main.c26518a6.css",
+    "main.js": "/static/js/main.9b03b127.js",
     "static/media/mower_1.webp": "/static/media/mower_1.d84edb79b4982b62b137.webp",
     "index.html": "/index.html",
-    "main.fb53f94f.css.map": "/static/css/main.fb53f94f.css.map",
-    "main.683d85d5.js.map": "/static/js/main.683d85d5.js.map"
+    "main.c26518a6.css.map": "/static/css/main.c26518a6.css.map",
+    "main.9b03b127.js.map": "/static/js/main.9b03b127.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb53f94f.css",
-    "static/js/main.683d85d5.js"
+    "static/css/main.c26518a6.css",
+    "static/js/main.9b03b127.js"
   ]
 }
