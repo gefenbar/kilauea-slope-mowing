@@ -701,7 +701,12 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
- 
+  .transformation {
+  height: auto;
+  }
+  .contact{
+    height: auto;
+  }
   .before-after-container{
     flex-direction: column;
     flex-wrap: wrap;
