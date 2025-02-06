@@ -9,12 +9,8 @@ export default function ContactForm() {
   useEffect(() => {
     const fetchLocation = async () => {
       try {
-        // Use a CORS-friendly geolocation service
         const response = await fetch('https://ipapi.co/json/', {
-          mode: 'cors',
-          headers: {
-            'Access-Control-Allow-Origin': '*'
-          }
+       
         });
         
         if (!response.ok) {
