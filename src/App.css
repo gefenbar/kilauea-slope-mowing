@@ -8,6 +8,7 @@ body {
 }
 html {
   background-color: #d9cca4;
+
   width: 100%;
 }
 section {
@@ -43,7 +44,7 @@ section {
   text-align: center;
   background-image: url("../public/mower_1.webp");
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 .hero p {
@@ -69,7 +70,6 @@ section {
   font-weight: 600;
   text-shadow: 2px 2px 2px rgb(0 0 0);
 }
-
 
 .hero-overlay {
   position: relative;
@@ -168,7 +168,7 @@ section {
   /* flex-wrap: wrap; */
   justify-content: center;
   gap: 10px;
-  max-width: 800px; 
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -205,7 +205,7 @@ section {
   justify-content: center;
   opacity: 0.9;
   transition: opacity 0.4s;
-  }
+}
 
 .overlay-text {
   color: #fff;
@@ -287,12 +287,10 @@ section {
   border: solid 4px #d9cca4;
 }
 
-
-
 .testimonials {
   /* padding-top: 1rem;
   padding-bottom: 4rem; */
-    background-color: #5b8155;
+  background-color: #5b8155;
   text-align: center;
 }
 
@@ -370,13 +368,13 @@ section {
   .testimonial-container {
     grid-template-columns: 1fr;
   }
- 
 }
-@media (min-width:768px) and (max-width: 900px) {
-.nav-item {
-font-size: small;}
-.image-container{
-  max-width: 350px;
+@media (min-width: 768px) and (max-width: 900px) {
+  .nav-item {
+    font-size: small;
+  }
+  .image-container {
+    max-width: 350px;
   }
 }
 
@@ -395,7 +393,7 @@ font-size: small;}
 }
 
 .nav-button:hover {
-  background-color:#ffc107;
+  background-color: #ffc107;
 }
 
 .next-button {
@@ -470,7 +468,7 @@ font-size: small;}
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:20px;
+  gap: 20px;
 }
 
 .service-item {
@@ -614,7 +612,6 @@ body {
   z-index: 2;
   width: 100%;
   flex-direction: row-reverse;
-
 }
 .logo {
   margin-right: 20px;
@@ -694,7 +691,7 @@ body {
 }
 
 .social-link:hover {
-  outline:  3px solid #ffc107;/* Adjust color and width */
+  outline: 3px solid #ffc107; /* Adjust color and width */
   border-radius: 300px;
   /* border-color: #ffc107; */
 }
@@ -706,19 +703,20 @@ body {
 
 @media only screen and (max-width: 768px) {
   .transformation {
-  height: auto;
-  }
-  .contact{
     height: auto;
   }
-  .before-after-container{
+  .contact {
+    height: auto;
+  }
+  .before-after-container {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
   }
-  .image-container{
+  .image-container {
     max-height: 300px;
-  max-width: 300px;}
+    max-width: 300px;
+  }
   .hero-subtitle,
   .hero-title {
     animation: none;
@@ -779,8 +777,8 @@ body {
   .gallery-image {
     height: 50vh;
   }
-  .service-item p{
-    font-size: 1rem ;
+  .service-item p {
+    font-size: 1rem;
   }
 }
 
@@ -815,9 +813,7 @@ body {
   .fire-hazard-item {
     flex: 0 0 calc(50% + 100px);
   }
- 
 }
-
 
 .contact-info-text {
   margin-top: 20px;
@@ -842,13 +838,8 @@ body {
   transition: color 0.4s ease;
 }
 .contact-info-text p span:hover {
-
-color: #5b8155;
+  color: #5b8155;
 }
-
-
-
-
 
 @media (max-width: 600px) {
   .contact-info-text p {
