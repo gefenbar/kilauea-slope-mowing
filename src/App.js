@@ -8,7 +8,6 @@ import Gallery from "./Components/Gallery.js";
 import Hero from "./Components/Hero.js";
 import Services from "./Components/Services.js";
 import FireHazard from "./Components/FireHazard.js";
-// import Testimonial from "./Components/Testimonial.js";
 import { AccessibilityWidget } from "react-accessibility";
 
 export default function App() {
@@ -55,7 +54,6 @@ Transforming landscapes with precision. Get your free estimate today!"
       <Hero />
       <Services />
       <FireHazard />
-      {/* <Testimonial/> */}
       <Gallery />
       <TransformationSection />
       <Contact_Form />
